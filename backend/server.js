@@ -15,7 +15,7 @@ app.use(
 )
 app.use('/public', express.static('public'));
 
-const mongoURI = ''    //Database 
+const mongoURI = 'mongodb+srv://minhquang030602:030602@aimier.cogbhas.mongodb.net/?retryWrites=true&w=majority&appName=AiMier'    //Database 
 
 mongoose
   .connect(
